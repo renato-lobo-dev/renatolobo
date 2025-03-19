@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+}
+
+.hero {
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?technology,innovation') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-gradient {
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+}
+
+.mediamarkt-logo img {
+    max-width: 150px; /* Define um tamanho máximo para o logo */
+    margin-bottom: 15px; /* Espaçamento entre o logo e o botão */
+}
+
+.content-section {
+    display: none; /* Todas as seções começam escondidas */
+    padding: 40px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.content-section.active {
+    display: block; /* Apenas a seção ativa aparece */
+}
+
+/* Efeito suave de transição */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

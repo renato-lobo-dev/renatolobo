@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Point - MediaMarkt</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Business Case - Service Point</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#estado">Estado Atual</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#melhorias">Melhorias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#solucoes">Soluções</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formacao">Formação</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mudanca">Gestão da Mudança</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipa">Desenvolvimento da Equipa</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-white text-center d-flex align-items-center">
+        <div class="container">
+            <h1 data-aos="fade-up">Transformação do Media Service</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Otimização e inovação na gestão dos Service Points.</p>
+            
+            <!-- Logo da MediaMarkt -->
+            <div class="mediamarkt-logo" data-aos="fade-up" data-aos-delay="300">
+                <img src="logo-mediamarkt.png" alt="MediaMarkt Logo">
+            </div>
+
+            <!-- Botão Explorar -->
+            <a href="https://hcm55.sapsf.eu/sf/liveprofile?_s.crb=Y7dxX2apwCDhKtlTJLQXC4FPOLbqnhkOQaU3p3eMUaE%3d" class="btn btn-gradient mt-3" data-aos="fade-up" data-aos-delay="400">Explorar</a>
+        </div>
+    </header>
+
+    <!-- Seções de Conteúdo (Apenas uma visível de cada vez) -->
+    <div class="container my-5">
+        <div id="estado" class="content-section active">
+            <h2 class="text-center mb-4" data-aos="fade-right">📌 Estado Atual</h2>
+        <p data-aos="fade-right">O Media Service realiza reparações de hardware, software e substituição de componentes.</p>
+        <ul data-aos="fade-up">
+            <li>🔧 Tempo de espera elevado</li>
+            <li>📞 Falta de comunicação com clientes</li>
+            <li>🚀 Pouca oferta de serviços adicionais</li>
+        </ul>
+        </div>
+
+        <div id="melhorias" class="content-section">
+            <h2 class="text-center mb-4" data-aos="fade-up">🔧 Melhorias Propostas</h2>
+            <ul data-aos="fade-up">
+                <li>✅ Automação do registo e acompanhamento das reparações</li>
+                <li>✅ Comunicação digital via SMS/e-mail</li>
+                <li>✅ Treinamento para venda de serviços adicionais</li>
+            </ul>
+        </div>
+
+        <div id="solucoes" class="content-section">
+            <h2>🚀 Soluções e Novos Serviços</h2>
+            <p>Reparação Expressa, suporte remoto e planos de manutenção preventiva.</p>
+        </div>
+
+        <div id="formacao" class="content-section">
+            <h2>🎓 Plano de Formação</h2>
+            <p>Integração, acompanhamento prático e avaliação contínua.</p>
+        </div>
+
+        <div id="mudanca" class="content-section">
+            <h2>🔄 Gestão da Mudança</h2>
+            <p>Estratégias para lidar com resistência e garantir adesão.</p>
+        </div>
+
+        <div id="equipa" class="content-section">
+            <h2>👥 Desenvolvimento da Equipa</h2>
+            <p>Planos motivacionais e desafios internos para envolver a equipa.</p>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="text-center py-3 bg-dark text-white">
+        <p>&copy; 2025 Service Point - Renato Lobo</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
